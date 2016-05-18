@@ -16,7 +16,7 @@ minimized our error rate.
 FILES:
 
 classifier.py
-- Contains superverised and unsupervised learning methods that classify the 
+- Contains supervised and unsupervised learning methods that classify the 
   data and outputs error rates for each method
 
 preProcessData.py
