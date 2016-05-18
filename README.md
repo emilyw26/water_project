@@ -30,6 +30,17 @@ INSTRUCTIONS TO RUN:
 - Run preProcessData.py to clean the data and produce the necessary files
 - Run classifier.py to run the classifications
 
+RESULTS:
+
+We found that Naive Bayes was the worst method at successfully classifying test data.
+The Ensemble Learning method we created was slightly better than Naive Bayes alone, 
+but worse than the other methods. KNNs and SVMS performed similarly to each other and
+their accuracy stayed relatively constant as the number of principal components 
+increased (around 58 percent correct). Initially, AdaBoost performed at the level of
+KNNs and SVMs for smaller numbers of principal components, but as the number of 
+components increased, AdaBoost's accuracy also increased. random Forest performed
+the best out of all methods all component amounts. The highest accuracy in classification was achieved by Random Forest with all 23 components, correctly classifying 80 percent of the test data. 
+
 NECESSARY LIBRARIES:
 
 This code requires multiple methods from python's sklearn, scipy and numpy libraries
