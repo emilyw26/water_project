@@ -1,3 +1,5 @@
+#Using machine learning to determine the status of Tanzanian water pumps based on data from Taarifa
+
 AUTHORS: Emily Wu and Katrina Midgley 
 DATE: May 2016
 
