@@ -26,12 +26,9 @@ preProcessData.py
 - Contains a Data object that contains all the attributes needed of this data
 
 INSTRUCTIONS TO RUN:
-
-1) Update source files & directories in preProcessData.py and classifier.py
-
-2) Run preProcessData.py to clean the data and produce the necessary files
-
-3) Run classifier.py to run the classifications
+- Update source files & directories in preProcessData.py and classifier.py
+- Run preProcessData.py to clean the data and produce the necessary files
+- Run classifier.py to run the classifications
 
 NECESSARY LIBRARIES:
 
