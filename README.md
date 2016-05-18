@@ -1,6 +1,7 @@
 #Using machine learning to determine the status of Tanzanian water pumps based on data from Taarifa
 
 AUTHORS: Emily Wu and Katrina Midgley 
+
 DATE: May 2016
 
 SUMMARY:
@@ -13,6 +14,7 @@ learning techniques. Our objective was to find a method and find parameters that
 minimized our error rate.
 
 FILES:
+
 classifier.py
 - Contains superverised and unsupervised learning methods that classify the 
   data and outputs error rates for each method
@@ -24,20 +26,19 @@ preProcessData.py
 - Contains a Data object that contains all the attributes needed of this data
 
 INSTRUCTIONS TO RUN:
-1) Update source files & directories in preProcessData.py 
-          - Reads in source csv files of the water data 
-          - Prints out updated version of the points and features
-   Update source files in classifier.py
-          - Read in the output from preProcessing
+
+1) Update source files & directories in preProcessData.py and classifier.py
 
 2) Run preProcessData.py to clean the data and produce the necessary files
 
 3) Run classifier.py to run the classifications
 
 NECESSARY LIBRARIES:
+
 This code requires multiple methods from python's sklearn, scipy and numpy libraries
 
 SOURCE:
+
 https://www.drivendata.org/competitions/7/data/
 
 
