@@ -22,7 +22,7 @@ classifier.py
 preProcessData.py
 - Contains methods which read in the csv files from DrivenData.org for their
   competition on water pump classfication
-- Manipulates the data to remove unnessary dimensions of the water pump data
+- Manipulates the data to remove unnecessary dimensions of the water pump data
 - Contains a Data object that contains all the attributes needed of this data
 
 INSTRUCTIONS TO RUN:
